@@ -7,21 +7,30 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>Hello</h1>		
-	
-<p> Date <input type="text" id="datepicker"></p>
+<h1>Bienvenue</h1>		
+
+<form id="form">
+<p> Nom : <input type="text" id="name"> </p>
+<p> Prénom : <input type="text" id="surname"> </p>		
+<p> Date de naissance : <input type="text" id="datepicker"></p>
 <hr>
+<p> Email : <input type="email" id="mail"> </p>	
 <div class="ui-widget">
   <label for="tags">Tags: </label>
   <input id="tags">
 </div>
 <hr>
-<input id="cp" placeholder="code postal">
-<input id="ville" placeholder="ville">
+<p> Adresse <input id="cp" placeholder="code postal">
+<input id="ville" placeholder="ville"></p>
+<p> Mot de passe : <input type="password" id="mdp"> </p>	
+<p> Confirmation mot de pase : <input type="password" id="confmdp"> </p>	
+<button type="submit" id="submit"> Envoyer </button>
+</form>	
 	
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/validetta.min.js"></script>
 <script src="js/script.js"></script>	
 </body>
 </html>

@@ -21,6 +21,12 @@ jQuery(function($){
 		minDate: 0,
 		maxDate: '+12M +0D',
 		numberOfMonths: 1,
+		minDate: new Date(1930,0,1), 
+		maxDate: new Date(2010,0,1), 
+		yearRange: '1910:2010' ,
+		changeMonth: true,
+		changeYear: true
+		
 		};
 	$.datepicker.setDefaults($.datepicker.regional['fr']);
 });
